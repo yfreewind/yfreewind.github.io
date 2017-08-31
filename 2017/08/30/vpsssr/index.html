@@ -79,7 +79,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="VPS," />
 
 
 
@@ -95,17 +95,24 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="由于众所周知的原因，翻墙已经成为了一个日常生活必备技能，油管脸书推特ins还有某t等等都需要一把好梯子… 作为一个技术小白，蹭了好基友几年的梯子以后，终于决定自己搞。于是不假思索直接采用和基友一样的VPS+Shadowsocks搭建(VPS和VPN的区别就不做介绍了，百度一下就知道，我也是百度的…)，在今年初的时候买了一个linode的VPS，然后配置好SS就开始翻墙了。然而美西的节点速度很慢，看">
+<meta name="keywords" content="VPS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/08/26/hello-world/index.html">
+<meta property="og:title" content="小白翻墙之路（VPS+SSR全程无代码）">
+<meta property="og:url" content="http://yoursite.com/2017/08/30/vpsssr/index.html">
 <meta property="og:site_name" content="随風记">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="由于众所周知的原因，翻墙已经成为了一个日常生活必备技能，油管脸书推特ins还有某t等等都需要一把好梯子… 作为一个技术小白，蹭了好基友几年的梯子以后，终于决定自己搞。于是不假思索直接采用和基友一样的VPS+Shadowsocks搭建(VPS和VPN的区别就不做介绍了，百度一下就知道，我也是百度的…)，在今年初的时候买了一个linode的VPS，然后配置好SS就开始翻墙了。然而美西的节点速度很慢，看">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-26T10:48:53.846Z">
+<meta property="og:image" content="http://yoursite.com/images/vpsorder.png">
+<meta property="og:image" content="http://yoursite.com/images/vpsorder2.png">
+<meta property="og:image" content="http://yoursite.com/images/kiwimain.png">
+<meta property="og:image" content="http://yoursite.com/images/ssrset.png">
+<meta property="og:image" content="http://yoursite.com/images/ssradd.png">
+<meta property="og:updated_time" content="2017-08-31T12:14:42.265Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="小白翻墙之路（VPS+SSR全程无代码）">
+<meta name="twitter:description" content="由于众所周知的原因，翻墙已经成为了一个日常生活必备技能，油管脸书推特ins还有某t等等都需要一把好梯子… 作为一个技术小白，蹭了好基友几年的梯子以后，终于决定自己搞。于是不假思索直接采用和基友一样的VPS+Shadowsocks搭建(VPS和VPN的区别就不做介绍了，百度一下就知道，我也是百度的…)，在今年初的时候买了一个linode的VPS，然后配置好SS就开始翻墙了。然而美西的节点速度很慢，看">
+<meta name="twitter:image" content="http://yoursite.com/images/vpsorder.png">
 
 
 
@@ -135,13 +142,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/08/26/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/08/30/vpsssr/"/>
 
 
 
 
 
-  <title>Hello World | 随風记</title>
+  <title>小白翻墙之路（VPS+SSR全程无代码） | 随風记</title>
   
 
 
@@ -238,7 +245,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/26/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/30/vpsssr/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="比风自由">
@@ -255,7 +262,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">小白翻墙之路（VPS+SSR全程无代码）</h1>
         
 
         <div class="post-meta">
@@ -267,8 +274,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-26T18:48:53+08:00">
-                2017-08-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-30T22:30:10+08:00">
+                2017-08-30
               </time>
             
 
@@ -305,15 +312,23 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>由于众所周知的原因，翻墙已经成为了一个日常生活必备技能，油管脸书推特ins<del>还有某t</del>等等都需要一把好梯子…</p>
+<p>作为一个技术小白，蹭了好基友几年的梯子以后，终于决定自己搞。于是不假思索直接采用和基友一样的VPS+Shadowsocks搭建(VPS和VPN的区别就不做介绍了，百度一下就知道，我也是百度的…)，在今年初的时候买了一个linode的VPS，然后配置好SS就开始翻墙了。然而美西的节点速度很慢，看视频绝对缓冲到死，只能用来Google play更新APP或者上外服游戏用，而10刀/月也是挺贵的，最近一次信用卡扣款通知来了以后决定还是换一个，搜了一下正巧看到搬瓦工开通了电信直连线路，3刀/月 20刀/年，据说速度刚刚的，就试了一下……</p>
+<hr>
+<p><strong>以上都是废话，下面才是正文</strong>  </p>
+<p>首先注册个搬瓦工账号<br>搬瓦工官网 <a href="http://bandwagonhost.com" target="_blank" rel="external">http://bandwagonhost.com</a><br>我的推广链接 <a href="https://bandwagonhost.com/aff.php?aff=18516" target="_blank" rel="external">https://bandwagonhost.com/aff.php?aff=18516</a><br>如果看了这篇文章您也准备购买搬瓦工VPS，希望您使用推广链接注册，我可以拿到一定的奖励，谢谢！<br>搬瓦工官网已经被墙，这大概算是个死循环，需要先用些其他方法翻墙进行注册和购买…</p>
+<p>注册好登录以后购买VPS，如图选择Services–&gt;Order New Services，列表里注意选择Direct root via China Telecom and China Unicom, KVM服务器。<br><img src="/images/vpsorder.png" alt="购买VPS" title="购买VPS"><br><img src="/images/vpsorder2.png" alt="选择VPS" title="选择VPS"><br>买完大概一分钟就建好了，进入Services–&gt;My Services–&gt;KiwiVM Control Panel，这里显示了服务器IP，SSH端口还有一些基本信息，默认安装的系统是centos6-x86-bbr，应该是直接配置好了BBR（谷歌的TCP拥塞控制算法，简单理解成加速器），简直太人性化了，如果要改系统需要先stop再去Install New OS安装，仅用作翻墙不需要更换。在左侧边栏最下面有SSR安装，几秒钟就能装好。<br><img src="/images/kiwimain.png" alt="安装SSR" title="安装SSR">   </p>
+<p>装完会显示如下图信息，step1里有各个系统的客户端下载链接。<br><img src="/images/ssrset.png" alt="SSR信息" title="SSR信息"></p>
+<p>回到本地，打开下载的SSR客户端，选择SSR是据说比SS安全，但是SSR目前已经停止更新正在等接盘侠，网上关于SSR是有故事的，有兴趣可以自己了解…</p>
+<p>运行以后右下角有个纸飞机图标，右键–&gt;服务器–&gt;编辑服务器，填入step2里的IP，密码，端口等信息，这样梯子就算是搭好了。<br><img src="/images/ssradd.png" alt="本地SSR设置" title="本地SSR设置"></p>
+<p>代理模式一共有3种，直连/PAC/全局</p>
+<ul>
+<li>直连：全部不走代理，只有当系统或者软件设置了代理才会生效</li>
+<li>PAC：根据PAC列表决定哪些连接需要走代理</li>
+<li>全局：全部走代理</li>
+</ul>
+<p>我是用了直连模式，然后通过Chrome+SwitchyOmega插件控制哪些网站走代理，效果等于PAC，不过PAC需要自己写有点麻烦，直接用GFWlist当然也可以但是总是担心会有漏……</p>
+<p>基本就是这样了，收工。。。</p>
 
       
     </div>
@@ -329,6 +344,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/VPS/" rel="tag"># VPS</a>
+          
+        </div>
+      
 
       
       
@@ -338,15 +359,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/08/28/试写/" rel="next" title="python萌新学习记录（一）">
+                <i class="fa fa-chevron-left"></i> python萌新学习记录（一）
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/08/28/试写/" rel="prev" title="python萌新学习记录（一）">
-                python萌新学习记录（一） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -398,17 +419,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
@@ -438,7 +450,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -463,22 +475,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
